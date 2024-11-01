@@ -1,0 +1,362 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #FEFEE3;
+}
+body {
+  background-image: linear-gradient(to right top, #43766c, #658e7e, #87a692, #a9bfa8, #cbd8c0, #d3dbc2, #dcdec4, #e4e1c6, #d6ceaf, #c9ba99, #bda784, #b19470);
+
+}
+/* default browser behavior */
+* {
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box;
+} 
+
+* {
+  font-family: Raleway;
+  color: #4C956C;
+}
+.nav-bar {
+  background-color: #76453B;
+  display: flex;
+  justify-content: space-around;
+  padding: 25px;
+}
+
+.nav-bar a{
+  text-decoration: none;
+  font-family: Raleway;
+  font-size: 25px;
+  font-weight: bolder;
+  color: #F8FAE5;
+  padding: 5px;
+}
+
+.nav-bar a:hover {
+  background-color: #F8FAE5;
+  color: #B19470;
+  text-decoration: none;
+  border-radius: 50px;
+}
+h1 {
+  margin-top: 50px;
+  margin-left: 200px;
+  margin-bottom: 50px;
+  margin-right: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #43766C;
+  color: #F8FAE5;
+  font-size: 70px;
+  font-style: bold;
+  font-family: raleway;
+  text-align: center;
+  border: 5px solid #F8FAE5;
+  border-radius: 100px; 
+  box-shadow: 10px 10px 5px #B19470;
+  
+}
+
+.graphic {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-bottom: 90px;
+  border: 10px solid #76453B;
+  border-radius: 75px;
+  padding-bottom: 30px;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-left: 70px;
+  margin-top: 25px;
+  box-shadow: 10px 10px 5px #4C956C;
+  background-color: #FEFEE3;
+}
+.yield{
+  height: 220px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.car{
+  height: 220px;
+  width: 370px;
+  margin-top: 200px;
+  margin-right:100px;
+  object-fit: cover;
+  position: relative;
+  animation: MyDiv 3s infinite ease-in;
+  animation-direction: alternate-reverse;
+}
+@keyframes MyDiv {
+  0%   {left: 0px; top: 0px;}
+  100%  {left: 100px; top: 0px;}
+}
+.stop{
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  order: 2;
+  margin-top: 75px;
+}
+
+.welcome {
+  font-size: 50px;
+  text-align: center;
+  color: #76453B;
+  text-decoration: underline;
+  margin-bottom: 40px;
+}
+
+.slogan {
+  font-size: 25px;
+  padding: 30px;
+  text-align: center;
+  background-color: #F8FAE5;
+  border-radius: 200px;
+  color: #76453B;
+  margin: 65px;
+  margin-bottom: 100px;
+  border: 5px solid #76453B;
+  box-shadow: 10px 10px 5px #4C956C;
+}
+.secret {
+  font-size: 0px;
+}
+
+.emotions {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+
+
+.intro{
+  font-size: 25px;
+  padding: 68px;
+  text-align: center;
+  background-color: #2C6E49;
+  border-radius: 200px;
+  color: #FEFEE3;
+  margin: 65px;
+}
+
+.chart {
+  height: 400px;
+  width: 400px;
+  border: 10px solid #d68c45;
+  border-bottom: 40px solid #d68c45;
+  margin-top: 15px;
+  margin-right: 60px;
+}
+
+.team {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 25px;
+}
+
+
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 60px;
+}
+
+.about-title {
+  display: flex;
+  flex-direction: column;
+}
+.title-about {
+  color: #D68C45;
+  font-size: 40px;
+  text-decoration: underline;
+  text-align: center;
+}
+.meet {
+  color: #D68C45;
+  font-size: 40px;
+  margin: 50px;
+  text-decoration: underline;
+  margin-right: 1100px;
+}
+.contact {
+  text-align: center;
+  font-size: 30px;
+  background-color: #FFC9B9;
+  border-radius: 100px;
+  padding: 10px;
+  margin: 65px;
+}
+
+.name {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+.email {
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+  margin-bottom: 40px;
+}
+.team-section {
+  display: flex;
+  justify-content: space-around;
+}
+.alina-pic {
+  width: 250px;
+  height: 350px;
+  object-fit: cover;
+  border: 10px solid #4C956C;
+  border-bottom: 40px solid #4C956C;
+  margin-bottom: 25px;
+  margin-right: 15px;
+  box-shadow: 10px 10px 5px #2C6E49;
+}
+.tanisha-pic {
+  width: 250px;
+  height: 350px;
+  border: 10px solid #FFC9B9;
+  border-bottom: 40px solid #FFC9B9;
+  object-fit: cover;
+}
+.rosie-pic {
+  width: 250px;
+  height: 350px;
+  border: 10px solid #2C6E49;
+  border-bottom: 40px solid #2C6E49;
+  object-fit: cover;
+}
+
+.emotionText{
+  display:flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.sadText{
+  color: #FEFEE3;
+  font-size:25px;
+  font-family: Raleway;
+}
+
+.fineText{
+  color: #FEFEE3;
+  font-size:25px;
+  font-family: Raleway;
+}
+
+.happyText{
+  color: #FEFEE3;
+  font-size:25px;
+  font-family: Raleway;
+}
+.rosie {
+  height: 400px;
+  width: 270px;
+  border: 15px solid #43766C;
+  border-bottom: 60px solid #43766C;
+  margin-bottom: 25px;
+  margin-right: 60px;
+  box-shadow: 10px 10px 5px #B19470;
+  object-fit: cover;
+}
+.homeIntroBig{
+  padding-top: 50px;
+  font-size: 50px;
+  color: #76453B;
+  font-weight: bold;
+  font-stlye: italic;
+}
+.homeIntroSmall{
+  margin-top: 0px;
+  font-size: 25px;
+  color: #76453B;
+  font-weight: italics;
+  margin-bottom: 15px;
+}
+.codeInfo {
+  margin-top: 0px;
+  font-size: 20px;
+  color: #76453B;
+  font-weight: italics;
+  font-style: italic;
+  margin-bottom: 15px;
+  aling-text: center;
+}
+.Text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-bottom: 50px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+
+.buttons a {
+  background-color: #F8FAE5;
+  color: #76453B;
+  text-decoration: none;
+  border-radius: 50px;
+  font-family: Raleway;
+  font-size: 25px;
+  font-weight: bolder;
+  border: 5px solid #43766C;
+
+}
+.buttons a:hover{
+  text-decoration: none;
+  font-family: Raleway;
+  font-size: 25px;
+  font-weight: bolder;
+  color: #F8FAE5;
+  border: 5px solid #43766C;
+  border-radius: 50px;
+  background-color: #43766C;
+}
+.button {
+  margin: 10px;
+  padding: 10px;
+}
+.footer-section {
+  text-align: right;
+  padding: 3px;
+  background-color: #F8FAE5;
+  color: #76453B;
+  padding-right: 60px;
+  line-height: 1.5;
+  padding: 20px;
+}
+.footer-title {
+  font-size: 20px;
+  text-align: right;
+}
+.info {
+  font-size: 15px;
+  text-align: right;
+}
+.linked {
+  font-size: 20px;
+  text-align: right;
+}
+.copyright {
+  font-size: 15px;
+  text-align: right;
+  color: #43766C;
+}
