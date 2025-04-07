@@ -391,12 +391,12 @@ h2{
   margin: 50px;
   height: 200px;
   width: 200px;
-  background-image: url('assets/linkedin.png');
+  background-image: url('linkedin.png');
   background-size: cover;
   transition: background-image 0.1s ease-in-out;
 }
 .linked:hover {
-  background-image: url('assets/linkedin-hover.png');
+  background-image: url('linkedin-hover.png');
 }
 .mail {
   border: 5px solid #43766C;
@@ -404,12 +404,12 @@ h2{
   margin: 50px;
   height: 200px;
   width: 200px;
-  background-image: url('assets/mail.png');
+  background-image: url('mail.png');
   background-size: cover;
   transition: background-image 0.1s ease-in-out;
 }
 .mail:hover {
-  background-image: url('assets/mail-hover.png');
+  background-image: url('mail-hover.png');
 }
 .outlook {
   border: 5px solid #43766C;
@@ -417,12 +417,12 @@ h2{
   margin: 50px;
   height: 200px;
   width: 200px;
-  background-image: url('assets/outlook.png');
+  background-image: url('outlook.png');
   background-size: cover;
   transition: background-image 0.1s ease-in-out;
 }
 .outlook:hover {
-  background-image: url('assets/outlook-hover.png');
+  background-image: url('outlook-hover.png');
 }
 .icons {
   display: flex;
