@@ -383,7 +383,7 @@ h2{
 .blank {
   height: 200px;
   width: 200px;
-  opacity: 0.1;
+  opacity: 0.0;
 }
 .linked {
   border: 5px solid #43766C;
