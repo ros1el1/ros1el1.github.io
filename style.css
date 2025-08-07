@@ -284,15 +284,6 @@ h1 {
   font-weight: italics;
   margin-bottom: 15px;
 }
-.codeInfo {
-  margin-top: 0px;
-  font-size: 20px;
-  color: #76453B;
-  font-weight: italics;
-  font-style: italic;
-  margin-bottom: 15px;
-  aling-text: center;
-}
 .Text {
   display: flex;
   flex-direction: column;
