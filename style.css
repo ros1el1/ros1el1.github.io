@@ -4,10 +4,11 @@ html {
   background-color: #FEFEE3;
 }
 body {
-  background-image: linear-gradient(to right top, #43766c, #658e7e, #87a692, #a9bfa8, #cbd8c0, #d3dbc2, #dcdec4, #e4e1c6, #d6ceaf, #c9ba99, #bda784, #b19470);
+  background-image: linear-gradient(to right top, #def4c6, #def4c6, #8cb369, #8cb369, #e4e1c6, #d6ceaf, #8cb369);
 
 }
 /* default browser behavior */
+
 * {
   margin: 0; 
   padding: 0; 
@@ -16,150 +17,91 @@ body {
 
 * {
   font-family: Raleway;
-  color: #4C956C;
+  color: #09264a;
 }
+
 .nav-bar {
-  background-color: #76453B;
+  background-color: #344E41;
   display: flex;
   justify-content: space-around;
-  padding: 25px;
+  padding: 2vw;
 }
 
 .nav-bar a{
   text-decoration: none;
   font-family: Raleway;
-  font-size: 25px;
+  font-size: 2vw;
   font-weight: bolder;
   color: #F8FAE5;
-  padding: 5px;
+  padding: 1vw;
 }
 
 .nav-bar a:hover {
   background-color: #F8FAE5;
-  color: #B19470;
+  color: #344E41;
   text-decoration: none;
-  border-radius: 50px;
+  border-radius: 4vw;
 }
-h1 {
-  margin-top: 50px;
-  margin-left: 200px;
-  margin-bottom: 50px;
-  margin-right: 200px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  background-color: #43766C;
-  color: #F8FAE5;
-  font-size: 70px;
-  font-style: bold;
-  font-family: raleway;
+.slhs {
   text-align: center;
-  border: 5px solid #F8FAE5;
+  font-size: 4vw;
+  margin-top: 1vw;
+}
+.title {
+  margin-top: 30px;
+  margin-left: 15%;
+  margin-bottom: 60px;
+  margin-right: 15%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #F8FAE5;
+  color: #4f772d;
+  font-size: 4.5vw;
+  font-style: bold;
+  text-align: center;
+  border: 6px solid #4f772d;
   border-radius: 100px; 
-  box-shadow: 10px 10px 5px #B19470;
-  
+  box-shadow: 10px 10px 6px #B19470;
 }
 
 .graphic {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-right: 150px;
-  margin-left: 150px;
+  margin-right: 8%;
+  margin-left: 8%;
   margin-bottom: 90px;
-  border: 10px solid #76453B;
+  border: 10px solid #344E41;
   border-radius: 75px;
   padding-bottom: 30px;
   padding-top: 50px;
   padding-right: 50px;
   padding-left: 70px;
-  margin-top: 25px;
-  box-shadow: 10px 10px 5px #4C956C;
+  margin-top: 30px;
+  box-shadow: 10px 10px 6px #B19470;
   background-color: #FEFEE3;
 }
-.yield{
-  height: 220px;
-  width: 200px;
-  object-fit: cover;
-}
 
-.car{
-  height: 220px;
-  width: 370px;
-  margin-top: 200px;
-  margin-right:100px;
-  object-fit: cover;
-  position: relative;
-  animation: MyDiv 3s infinite ease-in;
-  animation-direction: alternate-reverse;
-}
 @keyframes MyDiv {
-  0%   {left: 0px; top: 0px;}
-  100%  {left: 100px; top: 0px;}
+  0%   {left: 0vw; top: 0vw;}
+  100%  {left: 7.3vw; top: 0vw;}
 }
-.stop{
-  height: 200px;
-  width: 200px;
-  object-fit: cover;
-  order: 2;
-  margin-top: 75px;
-}
-
-.welcome {
-  font-size: 50px;
-  text-align: center;
-  color: #76453B;
-  text-decoration: underline;
-  margin-bottom: 40px;
-}
-
-.slogan {
-  font-size: 25px;
-  padding: 30px;
-  text-align: center;
-  background-color: #F8FAE5;
-  border-radius: 200px;
-  color: #76453B;
-  margin: 65px;
-  margin-bottom: 100px;
-  border: 5px solid #76453B;
-  box-shadow: 10px 10px 5px #4C956C;
-}
-.secret {
-  font-size: 0px;
-}
-
-.emotions {
-  display: flex;
-  justify-content: space-around;
-  padding: 20px;
-}
-
-
 
 .intro{
-  font-size: 25px;
-  padding: 68px;
+  font-size: 1.8vw;
+  padding: 5vw;
   text-align: center;
   background-color: #2C6E49;
-  border-radius: 200px;
+  border-radius: 14.6vw;
   color: #FEFEE3;
-  margin: 65px;
-}
-
-.chart {
-  height: 400px;
-  width: 400px;
-  border: 10px solid #d68c45;
-  border-bottom: 40px solid #d68c45;
-  margin-top: 15px;
-  margin-right: 60px;
+  margin: 4.8vw;
 }
 
 .team {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  font-size: 25px;
+  font-size: 1.8vw;
 }
 
 
@@ -167,7 +109,7 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin: 60px;
+  margin: 4.4vw;
 }
 
 .about-title {
@@ -175,66 +117,34 @@ h1 {
   flex-direction: column;
 }
 .title-about {
-  color: #D68C45;
-  font-size: 40px;
+  color: #0474BA;
+  font-size: 3vw;
   text-decoration: underline;
   text-align: center;
 }
 .meet {
   color: #D68C45;
-  font-size: 40px;
-  margin: 50px;
+  font-size: 3vw;
+  margin: 3.66vw;
   text-decoration: underline;
-  margin-right: 1100px;
-}
-.contact {
-  text-align: center;
-  font-size: 30px;
-  background-color: #FFC9B9;
-  border-radius: 100px;
-  padding: 10px;
-  margin: 65px;
+  margin-right: 80.5vw;
 }
 
 .name {
-  font-size: 25px;
+  font-size: 1.8vw;
   font-weight: bold;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 0.73vw;
 }
 .email {
-  font-size: 20px;
+  font-size: 1.5vw;
   text-align: center;
-  margin: 10px;
-  margin-bottom: 40px;
+  margin: 0.73vw;
+  margin-bottom: 3vw;
 }
 .team-section {
   display: flex;
   justify-content: space-around;
-}
-.alina-pic {
-  width: 250px;
-  height: 350px;
-  object-fit: cover;
-  border: 10px solid #4C956C;
-  border-bottom: 40px solid #4C956C;
-  margin-bottom: 25px;
-  margin-right: 15px;
-  box-shadow: 10px 10px 5px #2C6E49;
-}
-.tanisha-pic {
-  width: 250px;
-  height: 350px;
-  border: 10px solid #FFC9B9;
-  border-bottom: 40px solid #FFC9B9;
-  object-fit: cover;
-}
-.rosie-pic {
-  width: 250px;
-  height: 350px;
-  border: 10px solid #2C6E49;
-  border-bottom: 40px solid #2C6E49;
-  object-fit: cover;
 }
 
 .emotionText{
@@ -245,109 +155,167 @@ h1 {
 
 .sadText{
   color: #FEFEE3;
-  font-size:25px;
+  font-size:1.8vw;
   font-family: Raleway;
 }
 
 .fineText{
   color: #FEFEE3;
-  font-size:25px;
+  font-size: 1.8vw;
   font-family: Raleway;
 }
 
 .happyText{
   color: #FEFEE3;
-  font-size:25px;
+  font-size:1.8vw;
   font-family: Raleway;
 }
-.rosie {
-  height: 400px;
-  width: 270px;
-  border: 15px solid #43766C;
-  border-bottom: 60px solid #43766C;
-  margin-bottom: 25px;
-  margin-right: 60px;
-  box-shadow: 10px 10px 5px #B19470;
+.homepic {
+  height: 25%;
+  width: 30%;
+  margin-bottom: 1.8vw;
+  margin-right: 4.4vw;
+  box-shadow: 0.73vw 0.73vw 0.4vw #B19470;
   object-fit: cover;
 }
 .homeIntroBig{
-  padding-top: 50px;
-  font-size: 50px;
-  color: #76453B;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  font-size: 3.2vw;
+  color: #344E41;
   font-weight: bold;
-  font-stlye: italic;
 }
 .homeIntroSmall{
   margin-top: 0px;
-  font-size: 25px;
-  color: #76453B;
-  font-weight: italics;
+  font-size: 1.6vw;
+  color: #344E41;
+  font-weight: bold;
   margin-bottom: 15px;
+  line-height: 1.5;
 }
+
 .Text {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   padding-bottom: 50px;
+  margin-left: 20px;
 }
 .buttons {
-  display: flex;
   justify-content: space-around;
   flex-direction: column;
   text-align: center;
-  margin-top: 10px;
-  padding: 10px;
+  margin-top: 0.73vw;
+  padding: 0.73vw;
 }
 
 
 .buttons a {
-  background-color: #F8FAE5;
-  color: #76453B;
+  color: #F8FAE5;
   text-decoration: none;
-  border-radius: 50px;
+  border-radius: 3.7vw;
   font-family: Raleway;
-  font-size: 25px;
+  font-size: 1.8vw;
   font-weight: bolder;
-  border: 5px solid #43766C;
-
+  border: 0.4vw solid #344E41;
+  background-color: #344E41;
 }
 .buttons a:hover{
   text-decoration: none;
   font-family: Raleway;
-  font-size: 25px;
+  font-size: 1.8vw;
   font-weight: bolder;
-  color: #F8FAE5;
-  border: 5px solid #43766C;
-  border-radius: 50px;
-  background-color: #43766C;
+  color: #344E41;
+  border: 0.4vw solid #344E41;
+  border-radius: 3.7vw;
+  background-color: #F8FAE5;
 }
 .button {
-  margin: 10px;
-  padding: 10px;
+  margin: 0.73vw;
+  padding: 0.73vw;
 }
 .footer-section {
   text-align: right;
-  padding: 3px;
   background-color: #F8FAE5;
-  color: #76453B;
-  padding-right: 60px;
+  color: #09264a;
+  padding-right: 4.4vw;
   line-height: 1.5;
-  padding: 20px;
+  padding: 1.5vw;
 }
 .footer-title {
-  font-size: 20px;
+  font-size: 1.5vw;
   text-align: right;
 }
 .info {
-  font-size: 15px;
+  font-size: 1vw;
   text-align: right;
 }
-.linked {
-  font-size: 20px;
+.insta {
+  font-size: 1vw;
   text-align: right;
 }
 .copyright {
-  font-size: 15px;
+  font-size: 1vw;
   text-align: right;
-  color: #43766C;
+  color: #09264a;
+}
+
+/* Mobile responsive adjustments */
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 9vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 4.5vw;
+    margin-bottom: 1.6vw;
+  }
+
+  .graphic {
+    margin-left: 12vw;
+    margin-right: 12vw;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    flex-direction: column; /* Changed from row to column for mobile */
+    align-items: center; /* Center items when in column */
+  }
+
+  .homepic {
+    width: 40vw;
+    height: auto;
+    margin-right: 0;
+    margin-bottom: 6vw; /* Increased margin for spacing */
+  }
+
+  .homeIntroBig {
+    font-size: 5.5vw;
+    text-align: center;
+  }
+
+  .homeIntroSmall {
+    font-size: 3.2vw;
+    text-align: center;
+  }
+
+  .nav-bar a {
+    font-size: 3.7vw;
+    padding: 0.8vw;
+  }
+
+  .footer-title {
+    font-size: 2.8vw;
+  }
+
+  .info {
+    font-size: 2.2vw;
+  }
+
+  .buttons a {
+    font-size: 3vw;
+  }
+
+  /* Prevent any element from exceeding viewport width */
+  * {
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
 }
