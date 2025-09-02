@@ -14,8 +14,7 @@
     font-family: Raleway;
   }
 body {
-  background-image: linear-gradient(to right top, #43766c, #658e7e, #87a692, #a9bfa8, #cbd8c0, #d3dbc2, #dcdec4, #e4e1c6, #d6ceaf, #c9ba99, #bda784, #b19470);
-
+   background-image: linear-gradient(to right top, #b8d1ae, #dbe8d7, #b8d1ae, #dbe8d7, #b8d1ae, #dbe8d7, #b8d1ae);
 }
 .nav-bar {
   background-color: #76453B;
