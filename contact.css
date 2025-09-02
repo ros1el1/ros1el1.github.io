@@ -293,10 +293,10 @@ body {
   }
 
   .graphic {
-    margin-left: 12vw;
-    margin-right: 12vw;
-    padding-left: 1.5vw;
-    padding-right: 1.5vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    padding-left: 6vw;
+    padding-right: 6vw;
     flex-direction: column; /* Changed from row to column for mobile */
     align-items: center; /* Center items when in column */
   }
