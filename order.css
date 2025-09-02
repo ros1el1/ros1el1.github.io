@@ -4,7 +4,7 @@ html {
   background-color: #FEFEE3;
 }
 body {
-  background-image: linear-gradient(to right top, #b8d1ae, #def4c6, #8cb369, #b8d1ae, #e4e1c6, #d6ceaf, #b8d1ae);
+  background-image: linear-gradient(to right top, #b8d1ae, #b8d1ae, #b8d1ae, #b8d1ae, #b8d1ae, #b8d1ae, #b8d1ae);
 
 }
 /* default browser behavior */
