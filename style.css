@@ -4,7 +4,9 @@ html {
   background-color: #FEFEE3;
 }
 body {
-  background-image: linear-gradient(to right top, #b8d1ae, #dbe8d7, #b8d1ae, #dbe8d7, #b8d1ae, #dbe8d7, #b8d1ae);}
+  background-image: linear-gradient(to right top, #b8d1ae, #dbe8d7, #b8d1ae, #dbe8d7, #b8d1ae, #dbe8d7, #b8d1ae);
+
+}
 /* default browser behavior */
 
 * {
@@ -21,8 +23,33 @@ body {
 .nav-bar {
   background-color: #344E41;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
   padding: 2vw;
+}
+
+.brand-section {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+
+.brand-logo {
+  height: 4.5vw;
+  width: auto;
+}
+
+.brand-name {
+  font-family: Raleway;
+  font-size: 2.2vw;
+  font-weight: bolder;
+  color: #F8FAE5;
+  margin: 0;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1vw;
 }
 
 .nav-bar a{
@@ -48,12 +75,12 @@ body {
 .title {
   margin-top: 30px;
   margin-left: 15%;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
   margin-right: 15%;
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: #F8FAE5;
-  color: #87ae73;
+  color: #4f772d;
   font-size: 4.5vw;
   font-style: bold;
   text-align: center;
